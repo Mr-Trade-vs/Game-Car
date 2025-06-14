@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- Removed fixed dimensions to let the controller handle sizing -->
+<StackPane fx:id="spWindow" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="integrative.task.control.MapController">
+   <children>
+      <Canvas fx:id="cDraw" />
+   </children>
+</StackPane>

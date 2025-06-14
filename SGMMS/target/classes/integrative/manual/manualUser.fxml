@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="521.0" prefWidth="739.0" style="-fx-background-color: #1C1C1C;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="integrative.task.control.ManualController">
+   <children>
+      <Label layoutX="45.0" layoutY="194.0" style="-fx-text-fill: #FFD700;" text="Movimiento en el Mapa">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="229.0" style="-fx-text-fill: #F2F2F2;" text="W : Movimiento hacia arriba" />
+      <Label layoutX="300.0" layoutY="23.0" style="-fx-text-fill: #F2F2F2;" text="Manual Usuario">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="257.0" style="-fx-text-fill: #F2F2F2;" text="S : Movimiento hacia abajo" />
+      <Label layoutX="51.0" layoutY="289.0" style="-fx-text-fill: #F2F2F2;" text="A : Movimiento hacia la izquierda" />
+      <Label layoutX="54.0" layoutY="321.0" style="-fx-text-fill: #F2F2F2;" text="D : Movimiento hacia la derecha" />
+      <ImageView fitHeight="190.0" fitWidth="306.0" layoutX="387.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../map/mapaPNG.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="155.0" layoutY="383.0" style="-fx-text-fill: #FFD700;" text="Resolver Incidente">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="413.0" style="-fx-text-fill: #F2F2F2;" text="1. Al generarse una colisión aparece un boton de ayuda" />
+      <Label layoutX="118.0" layoutY="439.0" prefHeight="17.0" prefWidth="213.0" style="-fx-text-fill: #F2F2F2;" text="2. Selecciona el vehiculo de emergencia" />
+      <Label layoutX="118.0" layoutY="462.0" style="-fx-text-fill: #F2F2F2;" text="3. Diviertete" />
+      <Button fx:id="btStartGame" layoutX="492.0" layoutY="415.0" mnemonicParsing="false" onAction="#startGame" style="-fx-background-color: #E10600; -fx-text-fill: #F2F2F2;" text="Iniciar Juego">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="379.0" layoutY="176.0" prefHeight="180.0" prefWidth="2.0" style="-fx-background-color: #00AEEF;" />
+      <AnchorPane layoutX="35.0" layoutY="363.0" prefHeight="2.0" prefWidth="664.0" style="-fx-background-color: #00AEEF;" />
+      <Label layoutX="45.0" layoutY="67.0" style="-fx-text-fill: #FFD700;" text="Descripción del Juego:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="104.0" prefHeight="53.0" prefWidth="629.0" style="-fx-text-fill: #F2F2F2;" text="Bienvenido a CaliDay. Un simulador donde tomas control de la caotica ciudad de Santiago de Cali. Espera lo inesperado, carros que no respetan señales, maniobras peligrosas, giros prohibidos. Incedios impredecibles y propagadores. Con una gran sorpresa. ¿Eres capaz de controlar esta caotica ciudad? ¿O explotara en caos antes?" wrapText="true" />
+      <Label layoutX="269.0" layoutY="194.0" style="-fx-text-fill: #FFD700;" text="Indicador:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="289.0" layoutY="238.0" style="-fx-text-fill: #F2F2F2;" text="Puntaje" />
+      <ImageView fitHeight="85.0" fitWidth="54.0" layoutX="54.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../police/PoliceUp.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
